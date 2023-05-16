@@ -47,7 +47,7 @@
             android:columnCount="2"
             android:columnOrderPreserved="false"
             android:padding="8dp"
-            android:rowCount="3">
+            android:rowCount="5">
 
 
             <androidx.cardview.widget.CardView
@@ -67,12 +67,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="15dp"
+                    android:layout_margin="10dp"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="90dp"
+                        android:layout_height="50dp"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/appointment">
 
@@ -84,8 +84,7 @@
                         android:layout_gravity="center_horizontal"
                         android:text="Calendar"
                         android:textAlignment="center"
-                        android:textSize="20dp">
-
+                        android:textSize="14sp">
                     </TextView>
 
 
@@ -115,7 +114,7 @@
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="90dp"
+                        android:layout_height="50dp"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/countdown">
 
@@ -153,12 +152,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="15dp"
+                    android:layout_margin="10dp"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="90dp"
+                        android:layout_height="50dp"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/month">
 
@@ -170,7 +169,7 @@
                         android:layout_gravity="center_horizontal"
                         android:text="Months"
                         android:textAlignment="center"
-                        android:textSize="20dp">
+                        android:textSize="14sp">
 
                     </TextView>
 
@@ -196,12 +195,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="15dp"
+                    android:layout_margin="10dp"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="90dp"
+                        android:layout_height="50dp"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/puzzle">
 
@@ -213,10 +212,8 @@
                         android:layout_gravity="center_horizontal"
                         android:text="Matching"
                         android:textAlignment="center"
-                        android:textSize="20dp">
-
+                        android:textSize="14sp">
                     </TextView>
-
 
                 </LinearLayout>
 
@@ -239,12 +236,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="15dp"
+                    android:layout_margin="10dp"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="90dp"
+                        android:layout_height="50dp"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/spell">
 
@@ -256,7 +253,7 @@
                         android:layout_gravity="center_horizontal"
                         android:text="Spelling"
                         android:textAlignment="center"
-                        android:textSize="20dp">
+                        android:textSize="14sp">
 
                     </TextView>
 
@@ -282,12 +279,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="15dp"
+                    android:layout_margin="10dp"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="90dp"
+                        android:layout_height="50dp"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/weather">
 
@@ -299,7 +296,7 @@
                         android:layout_gravity="center_horizontal"
                         android:text="Weathers"
                         android:textAlignment="center"
-                        android:textSize="20dp">
+                        android:textSize="14sp">
 
                     </TextView>
 
@@ -307,6 +304,184 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/learncard7"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="8dp"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/multiplication">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Multiplication"
+                        android:textAlignment="center"
+                        android:textSize="14sp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/learncard8"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="8dp"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/appointment">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Calendar"
+                        android:textAlignment="center"
+                        android:textSize="14sp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/learncard9"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="8dp"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/appointment">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Calendar"
+                        android:textAlignment="center"
+                        android:textSize="14sp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/learncard10"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="8dp"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/appointment">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Calendar"
+                        android:textAlignment="center"
+                        android:textSize="14sp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
 
 
         </GridLayout>

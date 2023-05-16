@@ -65,12 +65,12 @@ class PlayActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View) {
         val i:Intent = when (v.id) {
-            R.id.playcard1 -> Intent(this, PlayCard1Activity::class.java)
-            R.id.playcard2 -> Intent(this, PlayCard2Activity::class.java)
-            R.id.playcard3 -> Intent(this, PlayCard3Activity::class.java)
-            R.id.playcard4 -> Intent(this, PlayCard4Activity::class.java)
-            R.id.playcard5 -> Intent(this, PlayCard5Activity::class.java)
-            R.id.playcard6 -> Intent(this, PlayCard6Activity::class.java)
+            R.id.playcard1 -> Intent(this, PlayCalendarCardActivity::class.java)
+            R.id.playcard2 -> Intent(this, PlayRememberNumsCardActivity::class.java)
+            R.id.playcard3 -> Intent(this, PlayMonthsCardActivity::class.java)
+            R.id.playcard4 -> Intent(this, PlayMatchingCardActivity::class.java)
+            R.id.playcard5 -> Intent(this, PlaySpellingCardActivity::class.java)
+            R.id.playcard6 -> Intent(this, PlayWeathersCardActivity::class.java)
             else -> throw IllegalArgumentException("Unhandled view ID: ${v.id}")
         }
         startActivity(i)
