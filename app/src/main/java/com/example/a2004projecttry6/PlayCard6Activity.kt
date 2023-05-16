@@ -6,6 +6,6 @@ import android.os.Bundle
 class PlayCard6Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_play_card6)
+        setContentView(R.layout.play_weathers_activity_card)
     }
 }

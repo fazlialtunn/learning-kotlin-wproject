@@ -6,6 +6,6 @@ import android.os.Bundle
 class PlayCard5Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_play_card5)
+        setContentView(R.layout.play_spelling_activity_card)
     }
 }

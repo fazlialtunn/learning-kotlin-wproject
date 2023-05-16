@@ -110,7 +110,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="15dp"
+                    android:layout_margin="10dp"
                     android:orientation="vertical">
 
                     <ImageView
@@ -125,9 +125,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Counting"
+                        android:text="Remember numbers"
                         android:textAlignment="center"
-                        android:textSize="20dp">
+                        android:textSize="14sp">
 
                     </TextView>
 

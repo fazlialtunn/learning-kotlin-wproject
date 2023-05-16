@@ -6,6 +6,6 @@ import android.os.Bundle
 class PlayCard2Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_play_card2)
+        setContentView(R.layout.play_remembernums_activity_card)
     }
 }
