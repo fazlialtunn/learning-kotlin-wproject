@@ -63,11 +63,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 else -> false
             }
         }
-
-
-
-
-
     }
 
     override fun onClick(v: View) {
