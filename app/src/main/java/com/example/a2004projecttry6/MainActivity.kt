@@ -69,8 +69,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View) {
         val i:Intent = when (v.id) {
-            R.id.learncard1 -> Intent(this, LearnCard1Activity::class.java)
-            R.id.learncard2 -> Intent(this, LearnCard2Activity::class.java)
+            R.id.learncard1 -> Intent(this, LearnCalendarCardActivity::class.java)
+            R.id.learncard2 -> Intent(this, LearnRememberNumsCardActivity::class.java)
             R.id.learncard3 -> Intent(this, LearnCard3Activity::class.java)
             R.id.learncard4 -> Intent(this, LearnCard4Activity::class.java)
             R.id.learncard5 -> Intent(this, LearnCard5Activity::class.java)

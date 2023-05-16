@@ -51,10 +51,10 @@
             android:name=".LearnCard3Activity"
             android:exported="false" />
         <activity
-            android:name=".LearnCard2Activity"
+            android:name=".LearnRememberNumsCardActivity"
             android:exported="false" />
         <activity
-            android:name=".LearnCard1Activity"
+            android:name=".LearnCalendarCardActivity"
             android:exported="false"
             android:label="@string/title_activity_learn_card1"
             android:theme="@style/Theme.2004ProjectTry6" />

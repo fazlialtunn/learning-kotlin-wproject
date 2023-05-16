@@ -3,12 +3,11 @@ package com.example.a2004projecttry6
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-class LearnCard2Activity : AppCompatActivity() {
+class LearnRememberNumsCardActivity : AppCompatActivity() {
     private lateinit var startButton: Button
     private lateinit var digitTextView: TextView
 
