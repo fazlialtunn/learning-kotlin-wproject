@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".PlayActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,8 +30,8 @@
                 android:layout_marginTop="60dp"
                 android:layout_marginEnd="100dp"
                 android:gravity="center"
-                android:text="Learning"
-                android:textSize="26dp"
+                android:text="Playing"
+                android:textSize="26sp"
                 android:textStyle="bold">
 
             </TextView>
@@ -51,7 +51,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/learncard1"
+                android:id="@+id/playcard1"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
@@ -94,7 +94,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/learncard2"
+                android:id="@+id/playcard2"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
@@ -137,7 +137,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/learncard3"
+                android:id="@+id/playcard3"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
@@ -180,7 +180,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/learncard4"
+                android:id="@+id/playcard4"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
@@ -223,7 +223,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/learncard5"
+                android:id="@+id/playcard5"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"
@@ -266,7 +266,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/learncard6"
+                android:id="@+id/playcard6"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_rowWeight="1"

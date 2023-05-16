@@ -1,0 +1,35 @@
+package com.example.a2004projecttry6
+
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import com.google.android.material.bottomnavigation.BottomNavigationView
+
+class SettingsActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_settings)
+
+        val bottom_nav: BottomNavigationView = findViewById(R.id.bottom_nav)
+        bottom_nav.selectedItemId = R.id.bottom_settings
+
+        bottom_nav.setOnItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.bottom_learn -> {
+                    startActivity(Intent(applicationContext, MainActivity::class.java))
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
+                    finish()
+                    true
+                }
+                R.id.bottom_play -> {
+                    startActivity(Intent(applicationContext, PlayActivity::class.java))
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
+                    finish()
+                    true
+                }
+                R.id.bottom_settings -> true
+                else -> false
+            }
+        }
+    }
+}

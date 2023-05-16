@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.cardview.widget.CardView
 import com.example.a2004projecttry6.databinding.ActivityMainBinding
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -38,6 +39,32 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         D5?.setOnClickListener(this)
         D6?.setOnClickListener(this)
 
+        val bottom_nav: BottomNavigationView = findViewById(R.id.bottom_nav)
+        bottom_nav.selectedItemId = R.id.bottom_learn
+
+        bottom_nav.setOnItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.bottom_learn -> true
+                R.id.bottom_play -> {
+                    startActivity(Intent(applicationContext, PlayActivity::class.java))
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
+                    finish()
+                    true
+                }
+                R.id.bottom_settings -> {
+                    startActivity(Intent(applicationContext, SettingsActivity::class.java))
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
+                    finish()
+                    true
+                }
+                else -> false
+            }
+        }
+
+
+
+
+
     }
 
     override fun onClick(v: View) {
@@ -53,3 +80,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         startActivity(i)
     }
 }
+
+
+
+
