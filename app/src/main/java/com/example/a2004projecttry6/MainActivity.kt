@@ -18,8 +18,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private var D4 : CardView ? = null
     private var D5 : CardView ? = null
     private var D6 : CardView ? = null
-    private var D13: CardView ? = null
-
+    private var D7 : CardView ? = null
+    private var D8 : CardView ? = null
+    private var D9 : CardView ? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -32,7 +33,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         D4= findViewById(R.id.learncard4)
         D5= findViewById(R.id.learncard5)
         D6= findViewById(R.id.learncard6)
-        D13= findViewById(R.id.learncard7)
+        D7= findViewById(R.id.learncard7)
+        D8= findViewById(R.id.learncard8)
+        D9= findViewById(R.id.learncard9)
 
         D1?.setOnClickListener(this)
         D2?.setOnClickListener(this)
@@ -40,7 +43,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         D4?.setOnClickListener(this)
         D5?.setOnClickListener(this)
         D6?.setOnClickListener(this)
-        D13?.setOnClickListener(this)
+        D7?.setOnClickListener(this)
+        D8?.setOnClickListener(this)
+        D9?.setOnClickListener(this)
 
         val bottom_nav: BottomNavigationView = findViewById(R.id.bottom_nav)
         bottom_nav.selectedItemId = R.id.bottom_learn
@@ -74,6 +79,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.learncard5 -> Intent(this, LearnSpellingCardActivity::class.java)
             R.id.learncard6 -> Intent(this, LearnWeathersCardActivity::class.java)
             R.id.learncard7 -> Intent(this, LearnMultiplicationCardActivity::class.java)
+            R.id.learncard8 -> Intent(this, LearnDirectionsCardActivity::class.java)
+            R.id.learncard9 -> Intent(this, LearnClockCardActivity::class.java)
             else -> throw IllegalArgumentException("Unhandled view ID: ${v.id}")
         }
         startActivity(i)

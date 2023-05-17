@@ -13,6 +13,15 @@
         android:theme="@style/Theme.2004ProjectTry6"
         tools:targetApi="31">
         <activity
+            android:name=".LearnClockCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayFollowBallCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LearnDirectionsCardActivity"
+            android:exported="false" />
+        <activity
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity

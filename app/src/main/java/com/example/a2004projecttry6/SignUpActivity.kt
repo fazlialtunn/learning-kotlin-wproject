@@ -24,6 +24,12 @@ class SignUpActivity : AppCompatActivity() {
 
         auth=Firebase.auth
 
+        binding.btnGoSignIn.setOnClickListener {
+            val intent=Intent(this,SignInActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
         binding.btnSignUp.setOnClickListener {
             val email=binding.etEmail.text.toString()
             val password=binding.etPassword.text.toString()

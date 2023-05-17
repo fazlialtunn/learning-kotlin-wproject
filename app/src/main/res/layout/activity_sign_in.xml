@@ -62,10 +62,24 @@
 
     <Button
         android:id="@+id/btnSignIn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Sign In"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnGoSignUp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btnGoSignUp"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoSignUp" />
+
+    <Button
+        android:id="@+id/btnGoSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Sign In"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Dont you have an account?"
+        android:textColor="@android:color/holo_blue_dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
