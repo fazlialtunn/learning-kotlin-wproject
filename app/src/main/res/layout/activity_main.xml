@@ -72,7 +72,7 @@
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="64dp"
+                        android:layout_height="58dp"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/appointment">
 
@@ -82,57 +82,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Calendar"
+                        android:layout_marginTop="2dp"
+                        android:text="Days of the week"
                         android:textAlignment="center"
                         android:textSize="12sp">
                     </TextView>
 
 
                 </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/learncard2"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginBottom="8dp"
-                app:cardBackgroundColor="#ffffff"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="10dp"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="58dp"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/countdown">
-
-                    </ImageView>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:text="Remember numbers"
-                        android:textAlignment="center"
-                        android:textSize="12sp">
-
-                    </TextView>
-
-
-                </LinearLayout>
-
 
             </androidx.cardview.widget.CardView>
 
@@ -174,47 +131,6 @@
 
                     </TextView>
 
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/learncard4"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginBottom="8dp"
-                app:cardBackgroundColor="#ffffff"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="10dp"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="64dp"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/puzzle">
-
-                    </ImageView>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:text="Matching"
-                        android:textAlignment="center"
-                        android:textSize="12sp">
-                    </TextView>
 
                 </LinearLayout>
 
@@ -295,7 +211,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Weathers"
+                        android:text="Seasons"
                         android:textAlignment="center"
                         android:textSize="12sp">
 
@@ -435,65 +351,21 @@
 
             </androidx.cardview.widget.CardView>
 
-            <androidx.cardview.widget.CardView
-                android:id="@+id/learncard10"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginBottom="8dp"
-                app:cardBackgroundColor="#ffffff"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal|center_vertical"
-                    android:layout_margin="10dp"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="64dp"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/appointment">
-
-                    </ImageView>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:text="Calendar"
-                        android:textAlignment="center"
-                        android:textSize="12sp">
-
-                    </TextView>
-
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-
         </GridLayout>
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottom_nav"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="30dp"
             android:background="@drawable/bottom_background"
-            android:elevation="2dp"
+            android:elevation="18dp"
             app:itemIconSize="30dp"
             app:itemIconTint="@drawable/item_selector"
-            app:itemRippleColor="@android:color/transparent"
+            app:itemTextColor="@color/black"
             app:menu="@menu/bottom_menu" />
 
 

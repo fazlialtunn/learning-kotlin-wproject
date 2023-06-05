@@ -1,33 +1,176 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="16dp">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
-    <AnalogClock
-        android:id="@+id/analogClock"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true" />
+        android:orientation="vertical">
 
-    <DigitalClock
-        android:id="@+id/digitalClock"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp" />
 
-    <Button
-        android:id="@+id/nextButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/analogClock"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
-        android:text="Next" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="ANALOG CLOCK"
+            android:textColor="@color/white"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="18dp"
+            android:text="What is an analog clock?"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:textColor="@color/white">
+        </TextView>
 
-</RelativeLayout>
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/saat1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="18dp"
+            android:text="Hour Hand"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:textColor="@color/white">
+        </TextView>
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/saat2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="18dp"
+            android:text="How to read an analog clock"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:textColor="@color/white">
+        </TextView>
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/saat3" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/saat4" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="18dp"
+            android:text="One Example"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:textColor="@color/white">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/saat5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="DIGITAL CLOCK"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="14dp"
+            android:text="Reading the first number determining the hour"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textColor="@color/white">
+        </TextView>
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/d1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="14dp"
+            android:text="Reading the second number for minutes"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textColor="@color/white">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/d2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="14dp"
+            android:text="Put these together and get the time"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textColor="@color/white">
+        </TextView>
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/d3" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="14dp"
+            android:text="Determine if it is AM or PM"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textColor="@color/white">
+        </TextView>
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/d4" />
+
+
+    </LinearLayout>
+
+</ScrollView>

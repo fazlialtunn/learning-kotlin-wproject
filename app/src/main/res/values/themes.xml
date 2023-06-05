@@ -2,7 +2,9 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.2004ProjectTry6" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowBackground">@drawable/backgroundgradient</item>
+        <item name="colorPrimaryDark">@color/black</item>
+
     </style>
     <style name="SlideActivityAnimation" parent="@android:style/Animation.Activity">
         <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>

@@ -82,7 +82,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Calendar"
+                        android:text="Find my yesterday"
                         android:textAlignment="center"
                         android:textSize="12sp">
                     </TextView>
@@ -124,7 +124,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Remember numbers"
+                        android:text="Remember Numbers"
                         android:textAlignment="center"
                         android:textSize="12sp">
 
@@ -294,7 +294,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Weathers"
+                        android:text="Seasons"
                         android:textAlignment="center"
                         android:textSize="12sp">
 
@@ -372,7 +372,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="44dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/directions">
+                        android:src="@drawable/countdown">
 
                     </ImageView>
 
@@ -380,7 +380,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Directions"
+                        android:text="Remember Backward"
                         android:textAlignment="center"
                         android:textSize="12sp">
 

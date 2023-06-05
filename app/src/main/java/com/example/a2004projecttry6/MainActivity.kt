@@ -13,9 +13,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var binding: ActivityMainBinding
 
     private var D1 : CardView ? = null
-    private var D2 : CardView ? = null
     private var D3 : CardView ? = null
-    private var D4 : CardView ? = null
     private var D5 : CardView ? = null
     private var D6 : CardView ? = null
     private var D7 : CardView ? = null
@@ -28,9 +26,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(binding.root)
 
         D1= findViewById(R.id.learncard1)
-        D2= findViewById(R.id.learncard2)
         D3= findViewById(R.id.learncard3)
-        D4= findViewById(R.id.learncard4)
         D5= findViewById(R.id.learncard5)
         D6= findViewById(R.id.learncard6)
         D7= findViewById(R.id.learncard7)
@@ -38,9 +34,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         D9= findViewById(R.id.learncard9)
 
         D1?.setOnClickListener(this)
-        D2?.setOnClickListener(this)
         D3?.setOnClickListener(this)
-        D4?.setOnClickListener(this)
         D5?.setOnClickListener(this)
         D6?.setOnClickListener(this)
         D7?.setOnClickListener(this)
@@ -73,9 +67,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         val i:Intent = when (v.id) {
             R.id.learncard1 -> Intent(this, LearnCalendarCardActivity::class.java)
-            R.id.learncard2 -> Intent(this, LearnRememberNumsCardActivity::class.java)
             R.id.learncard3 -> Intent(this, LearnMonthsCardActivity::class.java)
-            R.id.learncard4 -> Intent(this, LearnMatchingCardActivity::class.java)
             R.id.learncard5 -> Intent(this, LearnSpellingCardActivity::class.java)
             R.id.learncard6 -> Intent(this, LearnWeathersCardActivity::class.java)
             R.id.learncard7 -> Intent(this, LearnMultiplicationCardActivity::class.java)

@@ -1,47 +1,156 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:orientation="vertical"
-android:gravity="center"
-tools:context=".LearnMultiplicationCardActivity">
-
-<Button
-    android:id="@+id/multiplication_button"
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Multiplication"
-    android:textSize="20sp"
-    android:padding="16dp"
-    android:layout_marginBottom="32dp" />
+    android:layout_height="wrap_content">
 
-    <EditText
-        android:id="@+id/problem_text_view"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:enabled="false"
-        android:minWidth="48dp"
-        android:padding="16dp"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:orientation="vertical">
 
-<EditText
-    android:id="@+id/result_edit_text"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:inputType="number"
-    android:hint="Enter your answer"
-    android:textSize="24sp"
-    android:textStyle="bold"
-    android:padding="16dp" />
 
-<Button
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Check"
-    android:textSize="20sp"
-    android:padding="16dp"
-    android:onClick="checkResult" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="MULTIPLICATION"
+            android:textColor="@color/white"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal">
+        </TextView>
 
-</LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/calculator2"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/abacus"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="18dp"
+            android:text="Multiplying by Repeated Addition"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:textColor="@color/white">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="30dp"
+            android:padding="16dp"
+            android:src="@drawable/carp1"
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical"
+            android:textSize="32sp"
+            android:padding="16dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_gravity="center_vertical"
+            android:text="For instance, say you are given the problem 4*3. This is really just another way to say “3 groups of 4,” or, for that matter, “4 groups of 3."
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textColor="@color/white">
+        </TextView>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="30dp"
+            android:padding="16dp"
+            android:src="@drawable/carp2"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textColor="@color/white"
+                android:layout_gravity="center_vertical"
+                android:textSize="32sp"
+                android:padding="16dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_gravity="center_vertical"
+                android:text="In the case of a simple problem like 4*3, just add 4 together 3 times (or, alternatively, 3 together 4 times)"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="@color/white">
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Here are some examples"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal">
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="30dp"
+            android:padding="16dp"
+            android:src="@drawable/kiraz"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="30dp"
+            android:padding="16dp"
+            android:src="@drawable/kestane"
+            android:scaleType="fitXY"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

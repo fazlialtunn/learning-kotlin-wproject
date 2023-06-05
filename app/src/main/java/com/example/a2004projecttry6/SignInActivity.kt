@@ -48,6 +48,15 @@ class SignInActivity : AppCompatActivity() {
         }
     }
 
+    override fun onStart() {
+        super.onStart()
+
+        if(auth.currentUser != null){
+            val intent=Intent(this,MainActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
     private fun checkAllField():Boolean{
         val email=binding.etEmail.text.toString()
         if(binding.etEmail.text.toString()==""){

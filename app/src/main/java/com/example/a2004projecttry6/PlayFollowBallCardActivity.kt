@@ -57,23 +57,27 @@ class PlayFollowBallCardActivity : AppCompatActivity() {
         return super.onTouchEvent(event)
     }
 
+    private var resetY = 0f
+    private val offsetYIncrement = 100f
+
     private fun startBallAnimation() {
+        val screenWidth = resources.displayMetrics.widthPixels
+
+        val ballHeight = ballImageView.height.toFloat()
+        resetY += offsetYIncrement
+
         valueAnimator = ValueAnimator.ofFloat(0f, 1f).apply {
             duration = 5000 // Set the duration of the animation (in milliseconds)
             interpolator = LinearInterpolator()
-            repeatCount = ValueAnimator.INFINITE // Repeat the animation indefinitely
+            repeatCount = 0 // Do not repeat the animation
 
             addUpdateListener { animation ->
                 val progress = animation.animatedValue as Float
 
-                // Update the ballImageView's position based on the animation progress
-                val screenWidth = resources.displayMetrics.widthPixels
-                val screenHeight = resources.displayMetrics.heightPixels
-                val newX = screenWidth * progress
-                val newY = screenHeight * progress
+                // Calculate the X position based on the progress and screen width
+                val newX = (screenWidth - ballImageView.width) * progress
 
                 ballImageView.translationX = newX
-                ballImageView.translationY = newY
             }
 
             addListener(object : Animator.AnimatorListener {
@@ -83,6 +87,8 @@ class PlayFollowBallCardActivity : AppCompatActivity() {
 
                 override fun onAnimationEnd(animation: Animator) {
                     // Animation end callback
+                    ballImageView.translationY = resetY
+                    startBallAnimation() // Start the animation again
                 }
 
                 override fun onAnimationCancel(animation: Animator) {
@@ -98,6 +104,10 @@ class PlayFollowBallCardActivity : AppCompatActivity() {
 
         valueAnimator.start()
     }
+
+
+
+
 
     private fun updateScoreCounter() {
         // Update the UI to display the current score

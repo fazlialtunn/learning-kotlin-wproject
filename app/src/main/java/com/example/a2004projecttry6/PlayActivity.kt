@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.cardview.widget.CardView
-import com.example.a2004projecttry6.databinding.ActivityMainBinding
 import com.example.a2004projecttry6.databinding.ActivityPlayBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
@@ -19,6 +18,8 @@ class PlayActivity : AppCompatActivity(), View.OnClickListener {
     private var D4 : CardView? = null
     private var D5 : CardView? = null
     private var D6 : CardView? = null
+    private var D7 : CardView? = null
+    private var D8 : CardView? = null
     private var D9 : CardView? = null
 
 
@@ -34,7 +35,9 @@ class PlayActivity : AppCompatActivity(), View.OnClickListener {
         D4= findViewById(R.id.playcard4)
         D5= findViewById(R.id.playcard5)
         D6= findViewById(R.id.playcard6)
-        D9=findViewById(R.id.playcard9)
+        D7= findViewById(R.id.playcard7)
+        D8= findViewById(R.id.playcard8)
+        D9= findViewById(R.id.playcard9)
 
         D1?.setOnClickListener(this)
         D2?.setOnClickListener(this)
@@ -42,6 +45,8 @@ class PlayActivity : AppCompatActivity(), View.OnClickListener {
         D4?.setOnClickListener(this)
         D5?.setOnClickListener(this)
         D6?.setOnClickListener(this)
+        D7?.setOnClickListener(this)
+        D8?.setOnClickListener(this)
         D9?.setOnClickListener(this)
 
         val bottom_nav: BottomNavigationView = findViewById(R.id.bottom_nav)
@@ -75,6 +80,8 @@ class PlayActivity : AppCompatActivity(), View.OnClickListener {
             R.id.playcard4 -> Intent(this, PlayMatchingCardActivity::class.java)
             R.id.playcard5 -> Intent(this, PlaySpellingCardActivity::class.java)
             R.id.playcard6 -> Intent(this, PlayWeathersCardActivity::class.java)
+            R.id.playcard7 -> Intent(this, PlayMultiplicationCardActivity::class.java)
+            R.id.playcard8 -> Intent(this, PlayRememberNumsBackwardCardActivity::class.java)
             R.id.playcard9 -> Intent(this, PlayFollowBallCardActivity::class.java)
             else -> throw IllegalArgumentException("Unhandled view ID: ${v.id}")
         }
