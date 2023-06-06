@@ -42,6 +42,11 @@ class SettingsActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        binding.chatGPTbutton.setOnClickListener {
+            val intent=Intent(this,ChatActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
 
 
         val bottom_nav: BottomNavigationView = findViewById(R.id.bottom_nav)

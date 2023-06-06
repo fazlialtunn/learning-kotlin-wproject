@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -14,6 +15,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.2004ProjectTry6"
         tools:targetApi="31">
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MessageAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Message"
+            android:exported="false" />
         <activity
             android:name=".StartActivity"
             android:exported="false" />
@@ -84,15 +94,7 @@
             android:name=".LearnSpellingCardActivity"
             android:exported="false" />
         <activity
-            android:name=".LearnMatchingCardActivity"
-            android:exported="false"
-            android:label="@string/title_activity_learn_card4"
-            android:theme="@style/Theme.2004ProjectTry6" />
-        <activity
             android:name=".LearnMonthsCardActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LearnRememberNumsCardActivity"
             android:exported="false" />
         <activity
             android:name=".LearnCalendarCardActivity"
