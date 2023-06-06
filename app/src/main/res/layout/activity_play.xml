@@ -30,7 +30,7 @@
                 android:layout_marginTop="60dp"
                 android:layout_marginEnd="100dp"
                 android:gravity="center"
-                android:text="Playing"
+                android:text="@string/playing"
                 android:textSize="26dp"
                 android:textStyle="bold">
 
@@ -71,7 +71,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="64dp"
                         android:layout_height="44dp"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/appointment">
@@ -82,7 +82,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Find my yesterday"
+                        android:text="@string/find_my_yesterday"
                         android:textAlignment="center"
                         android:textSize="12sp">
                     </TextView>
@@ -124,7 +124,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Remember Numbers"
+                        android:text="@string/remember_numbers"
                         android:textAlignment="center"
                         android:textSize="12sp">
 
@@ -156,7 +156,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="64dp"
                         android:layout_height="44dp"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/month">
@@ -167,7 +167,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Months"
+                        android:text="@string/months"
                         android:textAlignment="center"
                         android:textSize="12sp">
 
@@ -210,7 +210,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Matching"
+                        android:text="@string/matching"
                         android:textAlignment="center"
                         android:textSize="12sp">
                     </TextView>
@@ -251,7 +251,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Spelling"
+                        android:text="@string/spelling"
                         android:textAlignment="center"
                         android:textSize="12sp">
 
@@ -283,10 +283,10 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="44dp"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/weather">
+                        android:src="@drawable/snake">
 
                     </ImageView>
 
@@ -294,7 +294,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Seasons"
+                        android:text="@string/snake"
                         android:textAlignment="center"
                         android:textSize="12sp">
 
@@ -337,7 +337,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Multiplication"
+                        android:text="@string/multiplication"
                         android:textAlignment="center"
                         android:textSize="12sp">
 
@@ -380,7 +380,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Remember Backward"
+                        android:text="@string/remember_backward"
                         android:textAlignment="center"
                         android:textSize="12sp">
 
@@ -423,7 +423,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Follow the ball"
+                        android:text="@string/follow_the_ball"
                         android:textAlignment="center"
                         android:textSize="12sp">
 
@@ -458,15 +458,15 @@
                         android:layout_width="match_parent"
                         android:layout_height="44dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/appointment">
+                        android:src="@drawable/cat">
 
                     </ImageView>
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="Calendar"
+                        android:text="@string/Catchthemeats"
                         android:textAlignment="center"
                         android:textSize="12sp">
 

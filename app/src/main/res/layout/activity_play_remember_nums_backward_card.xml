@@ -17,7 +17,7 @@
         android:id="@+id/user_input_edit_text"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="   Enter number"
+        android:hint="@string/enter_number"
         android:textColorHint="@color/black"
         android:background="@drawable/bottom_background"
         android:inputType="number"
@@ -31,7 +31,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="470dp"
         android:backgroundTint="@color/white"
-        android:text="Start"
+        android:text="@string/start"
         android:textColor="@color/black"
         android:textSize="24sp" />
 

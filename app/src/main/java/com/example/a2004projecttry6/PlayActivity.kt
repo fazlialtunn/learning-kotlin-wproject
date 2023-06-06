@@ -21,6 +21,7 @@ class PlayActivity : AppCompatActivity(), View.OnClickListener {
     private var D7 : CardView? = null
     private var D8 : CardView? = null
     private var D9 : CardView? = null
+    private var D10 : CardView? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,6 +39,7 @@ class PlayActivity : AppCompatActivity(), View.OnClickListener {
         D7= findViewById(R.id.playcard7)
         D8= findViewById(R.id.playcard8)
         D9= findViewById(R.id.playcard9)
+        D10= findViewById(R.id.playcard10)
 
         D1?.setOnClickListener(this)
         D2?.setOnClickListener(this)
@@ -48,6 +50,7 @@ class PlayActivity : AppCompatActivity(), View.OnClickListener {
         D7?.setOnClickListener(this)
         D8?.setOnClickListener(this)
         D9?.setOnClickListener(this)
+        D10?.setOnClickListener(this)
 
         val bottom_nav: BottomNavigationView = findViewById(R.id.bottom_nav)
         bottom_nav.selectedItemId = R.id.bottom_play
@@ -79,10 +82,11 @@ class PlayActivity : AppCompatActivity(), View.OnClickListener {
             R.id.playcard3 -> Intent(this, PlayMonthsCardActivity::class.java)
             R.id.playcard4 -> Intent(this, PlayMatchingCardActivity::class.java)
             R.id.playcard5 -> Intent(this, PlaySpellingCardActivity::class.java)
-            R.id.playcard6 -> Intent(this, PlayWeathersCardActivity::class.java)
+            R.id.playcard6 -> Intent(this, PlaySnakeCardActivity::class.java)
             R.id.playcard7 -> Intent(this, PlayMultiplicationCardActivity::class.java)
             R.id.playcard8 -> Intent(this, PlayRememberNumsBackwardCardActivity::class.java)
             R.id.playcard9 -> Intent(this, PlayFollowBallCardActivity::class.java)
+            R.id.playcard10 -> Intent(this, PlayCatchGameActivity::class.java)
             else -> throw IllegalArgumentException("Unhandled view ID: ${v.id}")
         }
         startActivity(i)

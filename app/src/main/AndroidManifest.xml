@@ -15,6 +15,21 @@
         android:theme="@style/Theme.2004ProjectTry6"
         tools:targetApi="31">
         <activity
+            android:name=".StartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SoundPlayer"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayCatchGameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlaySnakeCardActivity"
+            android:exported="false" />
+        <activity
             android:name=".PlayRememberNumsBackwardCardActivity"
             android:exported="false" />
         <activity
