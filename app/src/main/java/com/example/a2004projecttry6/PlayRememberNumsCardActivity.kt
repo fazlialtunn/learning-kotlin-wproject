@@ -36,7 +36,6 @@ class PlayRememberNumsCardActivity : AppCompatActivity() {
             }
         }
     }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.play_remembernums_activity_card)

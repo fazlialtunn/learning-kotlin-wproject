@@ -11,7 +11,7 @@
         android:title="@string/play"/>
     <item
         android:id="@+id/bottom_settings"
-        android:icon="@drawable/baseline_settings_24"
-        android:title="@string/settings"/>
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/home"/>
 
 </menu>

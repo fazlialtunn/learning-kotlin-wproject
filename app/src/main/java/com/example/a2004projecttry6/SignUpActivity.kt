@@ -38,7 +38,7 @@ class SignUpActivity : AppCompatActivity() {
                     if(it.isSuccessful){
                         auth.signOut()
                         Toast.makeText(this,"Account created succesfully",Toast.LENGTH_SHORT).show()
-                        val intent=Intent(this,MainActivity::class.java)
+                        val intent=Intent(this,SettingsActivity::class.java)
                         startActivity(intent)
                         finish()
                     }

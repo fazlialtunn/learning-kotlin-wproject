@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:gravity="center">
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/spellingbee"
+        android:layout_marginBottom="40dp"/>
 
     <TextView
         android:id="@+id/target_word_text_view"
@@ -15,6 +23,8 @@
         android:textColor="@color/white"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp" />
+
+
 
 
 
@@ -41,4 +51,4 @@
         android:layout_below="@id/word_edit_text"
         android:layout_centerHorizontal="true" />
 
-</RelativeLayout>
+</LinearLayout>

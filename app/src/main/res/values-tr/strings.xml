@@ -21,7 +21,7 @@
     <string name="remember_backward">Sayıları Tersten Hatırla</string>
     <string name="follow_the_ball">Topu Takip Et</string>
     <string name="sign_out">Oturumu Kapat</string>
-    <string name="settings">Ayarlar</string>
+    <string name="home">Ana Sayfa</string>
     <string name="learn">Öğren</string>
     <string name="play">Oyna</string>
     <string name="sign_in">Giriş Yap</string>
@@ -70,4 +70,5 @@
     <string name="pause">DURDUR</string>
     <string name="right">SAĞ</string>
     <string name="down">AŞAĞI</string>
+    <string name="talk_with_chatgpt">YAPAY ZEKA İLE KONUŞ</string>
 </resources>
