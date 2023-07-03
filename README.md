@@ -15,6 +15,8 @@
 •	Improve your memory with games
 •	Both Turkish and English support
 
+### SCREENSHOTS
+
 <img width="441" alt="Screenshot 2023-07-03 at 16 39 54" src="https://github.com/fazlialtunn/learning-kotlin-wproject/assets/32793348/b2fd049d-5531-457b-8ae4-660d65b7ab82">
 <img width="441" alt="Screenshot 2023-07-03 at 16 40 04" src="https://github.com/fazlialtunn/learning-kotlin-wproject/assets/32793348/fd6bf047-6000-4687-b36e-b889b55421f1">
 <img width="441" alt="Screenshot 2023-07-03 at 16 40 59" src="https://github.com/fazlialtunn/learning-kotlin-wproject/assets/32793348/702c0c70-f742-4de3-a6cb-bd43fb334267">
