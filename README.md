@@ -1,5 +1,6 @@
 # Education App for Dyslexic Kids
-## Goal:For this project our duty was to create an Android application that will be used by kids 7-10 years old in the world.
+## Goal
+For this project our duty was to create an Android application that will be used by kids 7-10 years old in the world.
 ### FEATURES
 •	Sign In with Firebase
 •	Sign Up with Firebase
