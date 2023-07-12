@@ -1,8 +1,7 @@
 # Education App for Dyslexic Kids
 For this project our duty was to create an Android application that will be used by kids 7-10 years old in the world.
 ### FEATURES
--	Sign In with Firebase
--	Sign Up with Firebase
+-	Sign In/Up with Firebase
 -	Specific design for dyslexic kid
 -	Official ChatGPT API
 -	Separate learning and playing pages
