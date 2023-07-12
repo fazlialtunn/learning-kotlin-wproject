@@ -2,19 +2,19 @@
 ## Goal
 For this project our duty was to create an Android application that will be used by kids 7-10 years old in the world.
 ### FEATURES
-•	Sign In with Firebase
-•	Sign Up with Firebase
-•	Specific design for dyslexic kid
-•	Official ChatGPT API
-•	Separate learning and playing pages
-•	Learn to read analog and digital clock
-•	Learn the seasons, days and months with multimedia
-•	The user can reinforce what she/he has learned with games
-•	Book reading practice with follow ball game
-•	Learn how to do multiplication and do exercise
-•	Learn directions and prepositions
-•	Improve your memory with games
-•	Both Turkish and English support
+-	Sign In with Firebase
+-	Sign Up with Firebase
+-	Specific design for dyslexic kid
+-	Official ChatGPT API
+-	Separate learning and playing pages
+-	Learn to read analog and digital clock
+-	Learn the seasons, days and months with multimedia
+-	The user can reinforce what she/he has learned with games
+-	Book reading practice with follow ball game
+-	Learn how to do multiplication and do exercise
+-	Learn directions and prepositions
+-	Improve your memory with games
+-	Both Turkish and English support
 
 ### SCREENSHOTS
 
